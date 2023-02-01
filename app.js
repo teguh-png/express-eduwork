@@ -23,4 +23,4 @@ app.use((req, res, next) => {
     message: 'Resource ' + req.originalUrl + ' Not Found',
   });
 });
-app.listen(3000, () => console.log('Server: http://localhost:3000'));
+app.listen(3007, () => console.log('Server: http://localhost:3000'));
